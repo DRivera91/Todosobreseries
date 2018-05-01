@@ -20,9 +20,9 @@ public class SeasonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_season);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
+ //       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         imagen = (ImageView) findViewById(R.id.image_dos);
         nombre = (TextView) findViewById(R.id.serieTitulo_dos);
